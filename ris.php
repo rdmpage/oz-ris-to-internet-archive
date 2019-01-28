@@ -1,5 +1,7 @@
 <?php
 
+
+
 /**
  * @file ris.php
  *
@@ -17,6 +19,7 @@ $key_map = array(
 	'ID' => 'publisher_id',
 	'T1' => 'title',
 	'TI' => 'title',
+	'TT' => 'alternativetitle',
 	'SN' => 'issn',
 	'JO' => 'secondary_title',
 	'JF' => 'secondary_title',
@@ -45,6 +48,9 @@ function process_ris_key($key, $value, &$obj)
 {
 	global $key_map;
 	global $debug;
+	
+	
+	//echo "key=$key value=$value\n";
 	
 	switch ($key)
 	{
@@ -102,6 +108,11 @@ function process_ris_key($key, $value, &$obj)
 			}
 			$obj->authors[] = $author;
 			break;	
+			
+			// alternative athors, e.g. Japanese
+		case 'AT':
+			$obj->alternativeauthors[] = $value;	
+			break;				
 	
 		case 'JF':
 			$value = mb_convert_case($value, 
@@ -121,7 +132,7 @@ function process_ris_key($key, $value, &$obj)
 			$value = str_replace("“", "\"", $value);
 			$value = str_replace("”", "\"", $value);
 						
-			$obj->$key_map[$key] = $value;
+			$obj->{$key_map[$key]} = $value;
 			break;
 				
 		// Handle cases where both pages SP and EP are in this field
@@ -133,7 +144,7 @@ function process_ris_key($key, $value, &$obj)
 			}
 			else
 			{
-				$obj->$key_map[$key] = $value;
+				$obj->{$key_map[$key]} = $value;
 			}				
 			break;
 
@@ -145,7 +156,7 @@ function process_ris_key($key, $value, &$obj)
 			}
 			else
 			{
-				$obj->$key_map[$key] = $value;
+				$obj->{$key_map[$key]} = $value;
 			}				
 			break;
 			
@@ -235,7 +246,7 @@ function process_ris_key($key, $value, &$obj)
 				// Only set value if it is not empty
 				if ($value != '')
 				{
-					$obj->$key_map[$key] = $value;
+					$obj->{$key_map[$key]} = $value;
 				}
 			}
 			break;
@@ -317,6 +328,7 @@ function import_ris_file($filename, $callback_func = '')
 {
 	global $debug;
 	$debug = false;
+	//$debug = true;
 	
 	$file_handle = fopen($filename, "r");
 			
