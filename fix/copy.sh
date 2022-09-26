@@ -1,0 +1,30 @@
+#!/bin/sh
+
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/208529-277716.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264180-351833.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264181-351834.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264182-351835.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264183-351836.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264184-351837.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264185-351838.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264186-351839.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264187-351840.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264188-351841.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264189-351842.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264190-351843.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264191-351844.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264192-351845.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/264193-351846.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/286548-374687.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/286549-374688.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/286550-374689.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/286551-374690.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/286552-374691.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/286553-374692.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/286554-374693.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/286555-374694.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/286556-374695.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/286557-374696.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/286559-374698.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/286560-374699.pdf' . 
+cp '/Volumes/Ultra Touch/pdfs/Bolleti de la Societat dHistoria Natural de Les Balears/385137-478238.pdf' .

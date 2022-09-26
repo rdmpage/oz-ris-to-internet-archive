@@ -20,6 +20,7 @@ $config['proxy_port'] 	= '';
 $config['s3_access_key'] = 'fqKCdXcfuJpIuBbX';
 $config['s3_secret_key'] = 'FppdAMYPByxdmEBX';
 
-
+$config['cache_dir']	 = dirname(__FILE__) . "/cache";
+//$config['cache_dir']	 = '/Volumes/Samsung_T5/pdfs/cache';
 
 ?>
